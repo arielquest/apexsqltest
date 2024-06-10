@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaGrupoTrabajo]
+	AS [smallint]
+	START WITH 268
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

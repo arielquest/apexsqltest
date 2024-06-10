@@ -1,0 +1,3 @@
+CREATE SCHEMA [Historico]
+	AUTHORIZATION [dbo]
+GO

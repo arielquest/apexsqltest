@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaGrupoFormatoJuridico]
+	AS [smallint]
+	START WITH 1629
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

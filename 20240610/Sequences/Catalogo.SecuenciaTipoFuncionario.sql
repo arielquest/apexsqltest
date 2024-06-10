@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaTipoFuncionario]
+	AS [smallint]
+	START WITH 27
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

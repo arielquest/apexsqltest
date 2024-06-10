@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaEncadenamientoFormatoJuridico]
+	AS [int]
+	START WITH 2296
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 2147483647
+	NO CYCLE
+	CACHE;
+GO

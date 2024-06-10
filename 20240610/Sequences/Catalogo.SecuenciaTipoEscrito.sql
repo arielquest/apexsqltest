@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaTipoEscrito]
+	AS [smallint]
+	START WITH 434
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

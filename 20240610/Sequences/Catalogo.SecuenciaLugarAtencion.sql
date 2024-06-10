@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaLugarAtencion]
+	AS [smallint]
+	START WITH 935
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

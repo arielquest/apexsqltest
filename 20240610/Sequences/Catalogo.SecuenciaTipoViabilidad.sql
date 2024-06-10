@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaTipoViabilidad]
+	AS [smallint]
+	START WITH 8
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO

@@ -1,0 +1,3 @@
+CREATE SCHEMA [Facilitador]
+	AUTHORIZATION [dbo]
+GO

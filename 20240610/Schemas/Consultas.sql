@@ -1,0 +1,3 @@
+CREATE SCHEMA [Consultas]
+	AUTHORIZATION [dbo]
+GO

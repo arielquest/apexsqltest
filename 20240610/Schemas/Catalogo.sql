@@ -1,0 +1,3 @@
+CREATE SCHEMA [Catalogo]
+	AUTHORIZATION [dbo]
+GO

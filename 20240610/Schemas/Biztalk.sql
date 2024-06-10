@@ -1,0 +1,3 @@
+CREATE SCHEMA [Biztalk]
+	AUTHORIZATION [dbo]
+GO

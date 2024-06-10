@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaEstadoNotificacion]
+	AS [tinyint]
+	START WITH 8
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 255
+	NO CYCLE
+	CACHE;
+GO

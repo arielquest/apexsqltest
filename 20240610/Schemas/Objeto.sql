@@ -1,0 +1,3 @@
+CREATE SCHEMA [Objeto]
+	AUTHORIZATION [dbo]
+GO

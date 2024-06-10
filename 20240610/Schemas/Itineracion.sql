@@ -1,0 +1,3 @@
+CREATE SCHEMA [Itineracion]
+	AUTHORIZATION [dbo]
+GO

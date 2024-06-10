@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Catalogo].[SecuenciaTipoCuantia]
+	AS [tinyint]
+	START WITH 5
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 255
+	NO CYCLE
+	CACHE;
+GO

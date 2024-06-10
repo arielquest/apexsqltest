@@ -1,0 +1,9 @@
+CREATE SEQUENCE [Configuracion].[SecuenciaCatalogo]
+	AS [smallint]
+	START WITH 85
+	INCREMENT BY 1
+	MINVALUE 1
+	MAXVALUE 32767
+	NO CYCLE
+	CACHE;
+GO
