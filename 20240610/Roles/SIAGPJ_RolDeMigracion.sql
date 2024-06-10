@@ -1,0 +1,6 @@
+CREATE ROLE [SIAGPJ_RolDeMigracion] AUTHORIZATION [dbo]
+GO
+
+ALTER ROLE [SIAGPJ_RolDeMigracion] ADD MEMBER [siagpj]
+
+GO

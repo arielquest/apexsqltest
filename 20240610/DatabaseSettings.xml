@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <DatabaseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Collation />
-  <Containment />
-  <DatabaseName />
+  <Collation>Modern_Spanish_CI_AS</Collation>
+  <Containment>NONE</Containment>
+  <DatabaseName>Dev-Incidentes-1</DatabaseName>
   <ExistsOnSourceControl>true</ExistsOnSourceControl>
-  <ServerName />
+  <ServerName>APXACW22S1901</ServerName>
   <ServerVersion>Sql2019</ServerVersion>
 </DatabaseSettings>
