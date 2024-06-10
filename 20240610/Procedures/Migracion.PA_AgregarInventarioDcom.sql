@@ -1,0 +1,5 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+GO
+-- ==================================================================================================================================================================================-- Versión:				<1.0>-- Creado por:			<Karol Jiménez Sánchez>-- Fecha de creación:	<20/10/2020>-- Descripción:			<Permite agregar un registro en la tabla: InventarioDcom.>-- ==================================================================================================================================================================================CREATE PROCEDURE [Migracion].[PA_AgregarInventarioDcom]	@IdArchivo			uniqueidentifier,	@NumeroExpediente	VARCHAR(14),	@HashDocumento		VARCHAR(100)	= NULLASBEGIN	--Variables.DECLARE @L_TU_IdArchivo			uniqueidentifier	= @IdArchivo,		@L_TC_NumeroExpediente	VARCHAR(14)			= @NumeroExpediente,		@L_TC_HashDocumento		VARCHAR(100)		= @HashDocumento	--Lógica.	INSERT INTO	Migracion.InventarioDcom WITH(ROWLOCK)	(		TU_IdArchivo,		TC_NumeroExpediente,		TC_HashDocumento	)	VALUES	(		@L_TU_IdArchivo,	@L_TC_NumeroExpediente,		@L_TC_HashDocumento	)END
+GO

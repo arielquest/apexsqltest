@@ -1,0 +1,5 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+GO
+-- ==================================================================================================================================================================================-- Versión:				<1.0>-- Creado por:			<Aida Elena Siles R>-- Fecha de creación:	<12/07/2021>-- Descripción:			<Permite agregar un registro en la tabla: AsignadosPaseFallo.>-- ==================================================================================================================================================================================CREATE PROCEDURE	[Historico].[PA_AgregarAsignadosPaseFallo]	@CodPaseFallo				UNIQUEIDENTIFIER,	@CodPuestoTrabajo			VARCHAR(14)ASBEGIN	--Variables	DECLARE	@L_TU_CodPaseFallo				UNIQUEIDENTIFIER	= @CodPaseFallo,			@L_TC_CodPuestoTrabajo			VARCHAR(14)			= @CodPuestoTrabajo	--Cuerpo	INSERT INTO	Historico.AsignadosPaseFallo	WITH (ROWLOCK)	(		TU_CodPaseFallo,				TC_CodPuestoTrabajo						)	VALUES	(		@L_TU_CodPaseFallo,				@L_TC_CodPuestoTrabajo						)END
+GO
