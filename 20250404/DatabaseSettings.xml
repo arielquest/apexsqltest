@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <DatabaseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Collation />
-  <Containment />
-  <DatabaseName />
+  <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+  <Containment>NONE</Containment>
+  <DatabaseName>AdventureWorksLT2017_20230118</DatabaseName>
   <ExistsOnSourceControl>true</ExistsOnSourceControl>
-  <ServerName />
-  <ServerVersion>Sql2022</ServerVersion>
+  <ServerName>APXACW22S1901</ServerName>
+  <ServerVersion>Sql2019</ServerVersion>
 </DatabaseSettings>
