@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <DatabaseSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Collation />
-  <Containment />
-  <DatabaseName />
+  <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+  <Containment>NONE</Containment>
+  <DatabaseName>APXCAW19S1901\APXCAS02-07032024205041</DatabaseName>
   <ExistsOnSourceControl>true</ExistsOnSourceControl>
-  <ServerName />
-  <ServerVersion>Sql2022</ServerVersion>
+  <ServerName>APXCAW19S1901\APXCAS02</ServerName>
+  <ServerVersion>Sql2017</ServerVersion>
 </DatabaseSettings>
